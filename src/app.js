@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Clock from './clock';
 import './app.css';
 import { Form, FormControl, Button } from 'react-bootstrap';
+import Image from './christmas.gif';
 
 class App extends Component {
     constructor(props){
@@ -44,6 +45,7 @@ class App extends Component {
                     <Button onClick={this.revertToOriginal}> Revert </Button>
                     </Form>
                 </div>
+                <img className="main-image" src={Image} alt="christmas is coming" />
             </div>
         )
     }

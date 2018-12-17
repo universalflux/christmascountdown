@@ -17,3 +17,9 @@ div > ul > li {
     font-size: 25px;
     margin: 5px;
 }
+
+.main-image {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+}
